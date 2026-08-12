@@ -1,74 +1,185 @@
 fileFormatVersion: 2
 guid: b26c83e35ca364c6f9c7ebe717b131e2
-timeCreated: 1510610431
-licenseType: Store
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: Body
-    100002: Body_2
-    100004: Card
-    100006: Eyes1
-    100008: Eyes1_2
-    100010: Eyes2
-    100012: Eyes2_2
-    100014: Guard_Rigged
-    100016: Hat
-    100018: Hat_2
-    100020: Head
-    100022: Head_2
-    100024: Legs
-    100026: Legs_2
-    100028: //RootNode
-    400000: Body
-    400002: Body_2
-    400004: Card
-    400006: Eyes1
-    400008: Eyes1_2
-    400010: Eyes2
-    400012: Eyes2_2
-    400014: Guard_Rigged
-    400016: Hat
-    400018: Hat_2
-    400020: Head
-    400022: Head_2
-    400024: Legs
-    400026: Legs_2
-    400028: //RootNode
-    2300000: Body_2
-    2300002: Card
-    2300004: Eyes1_2
-    2300006: Eyes2_2
-    2300008: Hat_2
-    2300010: Head_2
-    2300012: Legs_2
-    2300014: //RootNode
-    3300000: Body_2
-    3300002: Card
-    3300004: Eyes1_2
-    3300006: Eyes2_2
-    3300008: Hat_2
-    3300010: Head_2
-    3300012: Legs_2
-    3300014: //RootNode
-    4300000: OfficeChair
-    4300002: Card
-    4300004: Hat_2
-    4300006: Legs_2
-    4300008: Body_2
-    4300010: Eyes1_2
-    4300012: Eyes2_2
-    4300014: Head_2
-    9500000: //RootNode
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Body
+  - first:
+      1: 100002
+    second: Body_2
+  - first:
+      1: 100004
+    second: Card
+  - first:
+      1: 100006
+    second: Eyes1
+  - first:
+      1: 100008
+    second: Eyes1_2
+  - first:
+      1: 100010
+    second: Eyes2
+  - first:
+      1: 100012
+    second: Eyes2_2
+  - first:
+      1: 100014
+    second: Guard_Rigged
+  - first:
+      1: 100016
+    second: Hat
+  - first:
+      1: 100018
+    second: Hat_2
+  - first:
+      1: 100020
+    second: Head
+  - first:
+      1: 100022
+    second: Head_2
+  - first:
+      1: 100024
+    second: Legs
+  - first:
+      1: 100026
+    second: Legs_2
+  - first:
+      1: 100028
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Body
+  - first:
+      4: 400002
+    second: Body_2
+  - first:
+      4: 400004
+    second: Card
+  - first:
+      4: 400006
+    second: Eyes1
+  - first:
+      4: 400008
+    second: Eyes1_2
+  - first:
+      4: 400010
+    second: Eyes2
+  - first:
+      4: 400012
+    second: Eyes2_2
+  - first:
+      4: 400014
+    second: Guard_Rigged
+  - first:
+      4: 400016
+    second: Hat
+  - first:
+      4: 400018
+    second: Hat_2
+  - first:
+      4: 400020
+    second: Head
+  - first:
+      4: 400022
+    second: Head_2
+  - first:
+      4: 400024
+    second: Legs
+  - first:
+      4: 400026
+    second: Legs_2
+  - first:
+      4: 400028
+    second: //RootNode
+  - first:
+      23: 2300000
+    second: Body_2
+  - first:
+      23: 2300002
+    second: Card
+  - first:
+      23: 2300004
+    second: Eyes1_2
+  - first:
+      23: 2300006
+    second: Eyes2_2
+  - first:
+      23: 2300008
+    second: Hat_2
+  - first:
+      23: 2300010
+    second: Head_2
+  - first:
+      23: 2300012
+    second: Legs_2
+  - first:
+      23: 2300014
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: Body_2
+  - first:
+      33: 3300002
+    second: Card
+  - first:
+      33: 3300004
+    second: Eyes1_2
+  - first:
+      33: 3300006
+    second: Eyes2_2
+  - first:
+      33: 3300008
+    second: Hat_2
+  - first:
+      33: 3300010
+    second: Head_2
+  - first:
+      33: 3300012
+    second: Legs_2
+  - first:
+      33: 3300014
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: OfficeChair
+  - first:
+      43: 4300002
+    second: Card
+  - first:
+      43: 4300004
+    second: Hat_2
+  - first:
+      43: 4300006
+    second: Legs_2
+  - first:
+      43: 4300008
+    second: Body_2
+  - first:
+      43: 4300010
+    second: Eyes1_2
+  - first:
+      43: 4300012
+    second: Eyes2_2
+  - first:
+      43: 4300014
+    second: Head_2
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -76,6 +187,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -90,30 +203,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -123,14 +255,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
