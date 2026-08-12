@@ -576,7 +576,7 @@ namespace Cinemachine
                     velocity = VirtualCamera.Follow.position - mLastTargetPosition;
                     break;
                 case Recentering.HeadingDerivationMode.Velocity:
-                    velocity = mTargetRigidBody.velocity;
+                    velocity = mTargetRigidBody.linearVelocity;
                     break;
                 default:
                 case Recentering.HeadingDerivationMode.TargetForward:
